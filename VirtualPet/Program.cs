@@ -10,6 +10,21 @@ namespace VirtualPet
     {
         static void Main(string[] args)
         {
+
+            VirtualPet PetFights = new VirtualPet();
+
+            PetFights.Welcome();
+
+            PetFights.Knowledge();
+
+            PetFights.Gamerules();
+
+            PetFights.LayofdaLand();
+
+            PetFights.Stats();
+
+            Console.ReadLine();
         }
+        
     }
 }
