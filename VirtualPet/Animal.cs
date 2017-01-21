@@ -25,11 +25,7 @@ namespace VirtualPet
         private int numbertwo;
         private int gatorade;
 
-        //   private int collardMac;
-        //  private int turnUp;
-        //  private int slothdwn;
-        //  private int gatorade;
-        //  private int numberTwo;
+       
 
         public VirtualPet()//constructor
         {
@@ -40,10 +36,7 @@ namespace VirtualPet
             this.thirst = 10;//thirst
             this.sleep = 10;//sleep
             this.userInput = 0;
-            //  this.collardMac = 0;
-            //  this.turnUp = 0;
-            // this.slothdwn = 0;
-            // this.numberTwo = 0;
+          
         }
 
         public void Welcome()
@@ -79,15 +72,16 @@ namespace VirtualPet
         {
             this.LayofdaLand();
         }
-        //  public VirtualPet()
-        //  {
-        //      this.userInput = userInput;
-        //      this.CollardMac = CollardMac;
-        //      this.TurnUp = Turnup;
-        //      this.Slothdwn = Sloth;
-        //      this.NumberTwo = NumberTwo;
-        //  }
+        public void End()
+        {
+           Console.WriteLine("Slater thinks your the coolest\n  but he has to hangout with his sloth bros \n five times is golden keep it Sexy Cleveland ");
 
+       }
+        public void GameEnd()
+        { 
+            this.End();
+        }
+       
 
         public void Stats()
         {
@@ -104,7 +98,7 @@ namespace VirtualPet
             }
             else if (userinput == 2)
             {
-                int turnup = 0;
+                int turnup=0;
                 turnup += 5; slothdwn -= 10; numbertwo += 2; gatorade += 2;
                 Console.WriteLine(" Slater's Energy level increased 5! \n Sleep level will decrease by 10! \n Poop Level goes up by 2! \n His Thirst Level increased by 2! \n Slater is angry because he loves to sleep!");
 

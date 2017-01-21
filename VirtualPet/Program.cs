@@ -21,9 +21,14 @@ namespace VirtualPet
 
             PetFights.LayofdaLand();
 
-            PetFights.Stats();
+          //  int s = int.Parse(Console.ReadLine());
 
-            Console.ReadLine();
+            for (int i = 0; i < 5; i++)
+            {
+                PetFights.Stats();
+ 
+            }
+            PetFights.GameEnd();
         }
         
     }
